@@ -3,7 +3,7 @@ name: 🧪 SuiteScript Testing
 on:
   push:
     branches:
-      - main 🌿
+      - main
 
 jobs:
   test:
