@@ -1,0 +1,33 @@
+# 📦 NetSuite Project EditorConfig 📦
+root = true
+
+# 🔧 Common settings 🔧
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+# 📜 Use tabs for Makefiles 📜
+[Makefile]
+indent_style = tab
+
+# 🚀 JavaScript and TypeScript files 🚀
+[*.{js,ts}]
+# 🔗 Airbnb JavaScript style guide: https://github.com/airbnb/javascript
+# Inherit common settings
+
+# 📦 JSON files 📦
+[*.json]
+# 🔗 Airbnb JSON style guide: https://github.com/airbnb/javascript
+# Inherit common settings
+
+# 📖 Markdown files 📖
+[*.md]
+# 🔗 Airbnb Markdown style guide: https://github.com/airbnb/javascript
+# Inherit common settings
+
+# ⚙️ YAML files ⚙️
+[*.yml]
+# 2 spaces indentation for .yml files

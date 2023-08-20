@@ -1,0 +1,28 @@
+name: 🧪 SuiteScript Testing
+
+on:
+  push:
+    branches:
+      - main 🌿
+
+jobs:
+  test:
+    runs-on: ubuntu-latest 🐧
+
+    steps:
+      - name: 📦 Checkout code
+        uses: actions/checkout@v2
+
+      - name: 🚀 Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # You can change this to your preferred Node.js version
+
+      - name: 📥 Install Dependencies
+        run: npm install
+
+      - name: 🔍 Run Linting
+        run: npm run lint
+
+      - name: 🧪 Run Tests
+        run: npm test

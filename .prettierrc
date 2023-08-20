@@ -1,0 +1,16 @@
+{
+  // ✨ Prettier Configuration ✨
+  "trailingComma": "all",              // Add commas for cleaner diffs ✨
+  "tabWidth": 2,                       // 2 spaces for indentation 🚀
+  "semi": true,                        // Use semicolons at the end of statements 🔗
+  "singleQuote": true,                 // Use single quotes for strings and JSX attributes 📖
+  "printWidth": 100,                   // Limit lines to 100 characters for readability ⚙️
+  "useTabs": false,                    // Use spaces, not tabs, for indentation 🔧
+  "bracketSpacing": true,              // Add spaces in object literals 📦
+  "arrowParens": "always",             // Always use parentheses around arrow function parameters 🚀
+  "endOfLine": "lf",                   // Use LF line endings for cross-platform compatibility 📦
+  "jsxBracketSameLine": false,         // Place JSX closing bracket on a new line 🚀
+  "jsxSingleQuote": false,             // Use double quotes in JSX attributes 📖
+  "quoteProps": "as-needed",           // Only add quotes around object properties when needed 📖
+  "vueIndentScriptAndStyle": false     // Do not indent Vue.js <script> and <style> blocks 📦
+}
