@@ -13,7 +13,7 @@ define([], function () {
   function handleGet(requestParams) {
     try {
       // Your GET logic here
-      var response = "Hello, RESTlet World!";
+      const response = 'Hello, RESTlet World!';
 
       return {
         status: 200,
@@ -38,7 +38,7 @@ define([], function () {
     try {
       // Your POST logic here
       // For example, you can process the data in the requestBody
-      var response = "POST request received with data: " + JSON.stringify(requestBody);
+      const response = 'POST request received with data: ' + JSON.stringify(requestBody);
 
       return {
         status: 200,

@@ -7,14 +7,14 @@ define(["N/ui/serverWidget"], function (serverWidget) {
   function onRequest(context) {
     if (context.request.method === "GET") {
       // Create a form
-      var form = serverWidget.createForm({
-        title: "My Suitelet Form",
+      const form = serverWidget.createForm({
+        title: 'My Suitelet Form',
       });
 
       // Add a field to the form
-      var textField = form.addField({
-        id: "my_text_field",
-        label: "Text Field",
+      const textField = form.addField({
+        id: 'my_text_field',
+        label: 'Text Field',
         type: serverWidget.FieldType.TEXT,
       });
 
