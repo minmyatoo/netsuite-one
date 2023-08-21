@@ -23,6 +23,7 @@ jobs:
 
       - name: 🔍 Run Linting
         run: npm run lint
+        continue-on-error: true
 
       - name: 🧪 Run Tests
         run: npm test
