@@ -4,7 +4,7 @@
   "description": "A SuiteCloud project for NetSuite SuiteScript development.",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage --verbose",
     "lint": "eslint .",
     "format": "prettier --write '**/*.{js,json,html,css}'",
     "start": "node ./scripts/run_project.js"
